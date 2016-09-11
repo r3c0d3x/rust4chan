@@ -1,0 +1,13 @@
+[package]
+name = "rust4chan"
+version = "0.1.0"
+
+[dependencies]
+toml = "0.1.30"
+rustc-serialize = "0.3.19"
+num_cpus = "1.0.0"
+chrono = "0.2"
+
+[dependencies.hyper]
+version = "*"
+default-features = false
